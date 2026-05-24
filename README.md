@@ -1,5 +1,7 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=24&height=300&section=header&text=Hotel%20Booking%20Intelligence&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=40&desc=Cancellation%20Prediction%20%26%20Reservation%20Intelligence%20Engine&descSize=18&descAlignY=62&descColor=c9d1d9" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:434343&height=280&section=header&text=SmartHotel%20Analytics&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Booking%20Cancellation%20Prediction%20%26%20Reservation%20Intelligence&descAlignY=58&descSize=18"/>
+
 </div>
 
 <br/>
