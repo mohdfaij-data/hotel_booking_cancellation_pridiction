@@ -1,208 +1,241 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0,0D1117,1a1a2e,16213e,0f3460&height=260&section=header&text=HOTEL%20BOOKING%20INTELLIGENCE&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=45&desc=Cancellation%20Prediction%20%26%20Reservation%20Intelligence%20Engine&descSize=15&descAlignY=65&descColor=a0aec0" width="100%"/>
-
-</div>
-
-<div align="center">
-
-[![Power BI Dashboard](https://img.shields.io/badge/LIVE%20DASHBOARD-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000)](YOUR_DASHBOARD_LINK)
-[![Full Report](https://img.shields.io/badge/FULL%20REPORT-PDF-FF4B4B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](YOUR_REPORT_LINK)
-[![SQL Queries](https://img.shields.io/badge/SQL%20QUERIES-View-00C4CC?style=for-the-badge&logo=postgresql&logoColor=white)](./sql/)
-[![Python Notebook](https://img.shields.io/badge/ML%20NOTEBOOK-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](./python/)
-
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=24&height=300&section=header&text=Hotel%20Booking%20Intelligence&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=40&desc=Cancellation%20Prediction%20%26%20Reservation%20Intelligence%20Engine&descSize=18&descAlignY=62&descColor=c9d1d9" width="100%"/>
 </div>
 
 <br/>
 
 <div align="center">
 
-```
-┌──────────────────────────────────────────────────────────────────────────┐
-│   119,400 Reservations  ·  37% Cancellation Rate  ·  $101.83 ADR        │
-│   235,000 Guests  ·  5 Power BI Dashboards  ·  6 Strategic Insights     │
-└──────────────────────────────────────────────────────────────────────────┘
-```
+<a href="YOUR_DASHBOARD_LINK"><img src="https://img.shields.io/badge/⬡%20LIVE%20DASHBOARD-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000"/></a>&nbsp;
+<a href="YOUR_REPORT_LINK"><img src="https://img.shields.io/badge/↓%20FULL%20REPORT-PDF-FF4B4B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/></a>&nbsp;
+<a href="./sql/"><img src="https://img.shields.io/badge/⌗%20SQL%20QUERIES-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/></a>&nbsp;
+<a href="./python/"><img src="https://img.shields.io/badge/◈%20ML%20NOTEBOOK-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/></a>
+
+<br/><br/>
+
+![Stars](https://img.shields.io/github/stars/mohdfaij-data/hotel_booking_cancellation_pridiction?style=flat-square&color=gold&label=⭐%20Stars)
+![Last Commit](https://img.shields.io/github/last-commit/mohdfaij-data/hotel_booking_cancellation_pridiction?style=flat-square&color=2dd4bf&label=Last%20Commit)
+![Repo Size](https://img.shields.io/github/repo-size/mohdfaij-data/hotel_booking_cancellation_pridiction?style=flat-square&color=a78bfa&label=Repo%20Size)
 
 </div>
 
----
-
-## 📋 Project Overview
-
-> **A full-cycle hospitality analytics system** that predicts booking cancellations, uncovers revenue leakage, and delivers strategic intelligence across City & Resort hotel properties — transforming 119K raw reservations into decision-grade business intelligence.
-
-This project spans the complete analytics lifecycle:
-**Raw Data → SQL Transformation → Python ML Modeling → Power BI Dashboards → Executive Strategy Report**
+<br/>
 
 ---
-
-## 📊 Dashboard Showcase
-
-### 01 · Hotel Performance Overview
-> Bookings · Cancellations · ADR · Guest Volume · Monthly Trends
-
-![Hotel Performance Overview](hotel_overview.png)
-
----
-
-### 02 · Cancellation Risk & Loss Analysis
-> Segment-level Cancellation Rates · Lead Time Impact · Monthly Trends · Risk Distribution
-
-![Cancellation Risk & Loss Analysis](cancellation.png)
-
----
-
-### 03 · Pricing Behavior & Revenue Yield
-> ADR by Hotel Type · Customer Segment · Booking Status · Stream Chart
-
-![Pricing Behavior & Revenue Yield](ADR.png)
-
----
-
-### 04 · Guest Behavior & Acquisition Insights
-> Stay Patterns · Booking Channels · Repeat Rates · Sankey Flow · Global Map
-
-![Guest Behavior & Acquisition](customers.png)
-
----
-
-### 05 · Strategic Insights & Recommendations
-> 6 Data-Driven Findings · 3 Action Pillars · City & Resort Filters
-
-![Strategic Insights & Recommendations](strategies.png)
-
----
-
-## 📈 Core Metrics Snapshot
-
-| KPI | Value | Signal |
-|-----|-------|--------|
-| Total Reservations | **119,400** | Across both hotel types |
-| Cancellation Rate | **37.0%** | ⚠️ High — primary risk factor |
-| Average Daily Rate | **$101.83** | Resort Hotel commands premium |
-| Total Guests | **235,000** | Transient = 75.1% dominant segment |
-| Avg. Booking Lead Time | **104 days** | Direct impact on cancellation risk |
-| Repeat Guest Rate | **3.2%** | Retention gap opportunity |
-| Parking Demand | **7,464 requests** | Consistently high — unmonetized |
-| Avg. Stay Duration | **3.43 nights** | Resort (4.3) vs City (3.0) |
-| Room Upgrade Rate | **12.49%** | Upsell signal |
-| Returning Guest Cancellation | **14.5%** | Lower risk in returning cohort |
-
----
-
-## 🔍 Critical Findings
-
-```
-INSIGHT 01 ─────────────────────────────────────────────────────────────────
-  Online TA = Highest Volume + Highest Cancellation Rate (36.7%)
-  → OTA dependency creates structural revenue risk
-  ACTION: Prepaid OTA offers · Stricter cancellation policies · Direct campaigns
-
-INSIGHT 02 ─────────────────────────────────────────────────────────────────
-  Peak Demand: July–August (ADR hits $160 in Room Type C)
-  → Untapped yield management opportunity in peak months
-  ACTION: Dynamic pricing + operational surge readiness
-
-INSIGHT 03 ─────────────────────────────────────────────────────────────────
-  Parking Requests Consistently High Across All Segments
-  → Unmonetized high-demand amenity
-  ACTION: Premium reserved parking · Capacity management system
-
-INSIGHT 04 ─────────────────────────────────────────────────────────────────
-  Resort Hotel ADR > City Hotel ADR
-  → Stronger premium pricing power in resort segment
-  ACTION: Luxury packages · Seasonal premium upsells · Experience bundles
-
-INSIGHT 05 ─────────────────────────────────────────────────────────────────
-  Transient Customers = 75.1% of All Bookings
-  → Dominant segment with low loyalty investment
-  ACTION: Personalized loyalty tiers · Direct booking incentives
-
-INSIGHT 06 ─────────────────────────────────────────────────────────────────
-  Groups Segment: 61% Cancellation Rate — Highest Risk Segment
-  → Massive revenue leakage from group block cancellations
-  ACTION: Deposit requirements · Group contract enforcement · Risk scoring
-```
-
----
-
-## ⚠️ Cancellation Risk Matrix
-
-| Segment | Contract | Group | Transient | Transient-Party | **Total** |
-|---------|----------|-------|-----------|-----------------|-----------|
-| Aviation | — | 0.00% | 21.10% | 35.29% | 21.94% |
-| Complementary | 0.00% | 0.00% | 13.23% | 12.50% | 13.06% |
-| Corporate | 18.18% | 17.24% | 18.29% | 19.72% | 18.73% |
-| Direct | 14.29% | 13.43% | 15.54% | 13.55% | 15.34% |
-| **Groups** | 95.92% | 0.00% | 95.69% | 31.30% | **⚠️ 61.06%** |
-| Offline TA/TO | 9.19% | 11.85% | 42.63% | 26.15% | 34.32% |
-| **Online TA** | 25.84% | 6.15% | 38.80% | 12.52% | **⚠️ 36.72%** |
-| **TOTAL** | 30.96% | 10.23% | 40.75% | 25.43% | **37.04%** |
-
----
-
-## 🤖 ML Model — Cancellation Predictor
-
-```python
-# Cancellation Risk Classifier
-Model     : Logistic Regression + Random Forest Ensemble
-Target    : booking_status  →  Canceled / Confirmed
-Features  : lead_time · market_segment · adr · hotel_type
-            deposit_type · customer_type · previous_cancellations
-            booking_changes · total_of_special_requests
-
-Risk Output:
-  Low Risk     ████████████████████████  60.3%  →  72,000 bookings
-  Medium Risk  ████████████             28.2%  →  33,600 bookings
-  High Risk    █████                    11.5%  →  13,700 bookings
-
-Key Driver: lead_time × market_segment interaction
-Use Case  : Flag high-risk bookings at reservation time
-```
-
----
-
-## 🎯 Strategic Action Pillars
 
 <div align="center">
 
-| 01 · Reduce Cancellation Losses | 02 · Grow Revenue & ADR | 03 · Retain Guests Directly |
-|---|---|---|
-| Predictive risk flags | Dynamic peak-season pricing | Personalized loyalty tiers |
-| OTA deposit mandates | Resort luxury bundles | Transient direct booking offers |
-| Lead time cancellation policies | Yield management system | Member-exclusive rates |
-| Group contract enforcement | Room upsell automation | Website & mobile UX optimization |
-| Advance payment triggers | Premium parking monetization | Exclusive member discounts |
+## ` 119,400 Reservations · 37.0% Cancellation Rate · $101.83 ADR · 235K Guests `
 
 </div>
 
 ---
 
-## 🛠️ Technology Stack
+<br/>
 
-**Data & Querying**
-`SQL` · `PostgreSQL` · `DAX` · `Power Query (M)`
+## ◈ What This Project Does
 
-**Visualization & BI**
-`Power BI` · `Power BI Service` · `Bookmarks & Drillthrough` · `Custom Tooltips`
+> **Transforms raw hotel reservation data into a full decision-grade intelligence system** — covering cancellation prediction, revenue yield analysis, guest acquisition behavior, and strategic recommendations — across City & Resort hotel properties.
 
-**Analytics & ML**
-`Python 3.10+` · `Pandas` · `Scikit-learn` · `Logistic Regression` · `Feature Engineering` · `Jupyter Notebook`
+Built across the **complete analytics lifecycle:**
 
-**Reporting & Delivery**
-`PDF Report` · `Live Dashboard (Power BI Service)` · `GitHub` · `Executive Summary`
+```
+Raw CSV Data  →  SQL Cleaning & Segmentation  →  Python EDA & ML Modeling
+     →  Power BI (5 Dashboards)  →  PDF Executive Report  →  GitHub
+```
+
+<br/>
 
 ---
 
-## 📁 Repository Structure
+## ◈ Dashboard 01 — Hotel Performance Overview
+
+> Bookings · Cancellations · ADR · Guest Volume · Monthly Trends · Market Treemap
+
+<img src="screenshots/hotel_overview.png" width="100%"/>
+
+<div align="center">
+
+| Metric | Value |
+|:--|:--|
+| Total Reservations | **119,400** |
+| Cancellation Rate | **37.0%** |
+| City Hotel Volume | **79K bookings** |
+| Resort Hotel Volume | **40K bookings** |
+| Peak Month | **July–August** |
+
+</div>
+
+<br/>
+
+---
+
+## ◈ Dashboard 02 — Cancellation Risk & Loss Analysis
+
+> Segment-Level Risk · Lead Time Impact · Monthly Trends · Predicted Risk Distribution
+
+<img src="screenshots/cancellation.png" width="100%"/>
+
+<div align="center">
+
+| Metric | Value |
+|:--|:--|
+| Cancelled Reservations | **44,200** |
+| Confirmed Reservations | **75,200** |
+| Avg. Booking Lead Time | **104 days** |
+| Returning Guest Cancellation | **14.5%** |
+| Highest Risk Segment | **Groups — 61.06% ⚠️** |
+
+</div>
+
+<br/>
+
+---
+
+## ◈ Dashboard 03 — Pricing Behavior & Revenue Yield
+
+> ADR by Hotel & Booking Status · Customer Value vs Cancellation · Monthly ADR by Type
+
+<img src="screenshots/ADR.png" width="100%"/>
+
+<div align="center">
+
+| Customer Type | Avg ADR | Cancellation Rate |
+|:--|:--|:--|
+| Transient | **$107.0** | 40.7% ⚠️ |
+| Contract | **$87.5** | 31.0% |
+| Transient-Party | **$86.1** | 25.4% |
+| Group | **$83.5** | 10.2% ✅ |
+
+</div>
+
+<br/>
+
+---
+
+## ◈ Dashboard 04 — Guest Behavior & Acquisition Insights
+
+> Stay Patterns · Booking Channels · Repeat Rates · Sankey Acquisition Flow · Global Map
+
+<img src="screenshots/customers.png" width="100%"/>
+
+<div align="center">
+
+| Metric | Value |
+|:--|:--|
+| Returning Guests | **3.19** |
+| Average Stay Duration | **3.43 nights** |
+| Parking Requests | **7,464** |
+| Repeat Guest Rate | **3.19%** |
+| Room Upgrade Rate | **12.49%** |
+| Transient Share | **75.1% of all bookings** |
+
+</div>
+
+<br/>
+
+---
+
+## ◈ Dashboard 05 — Strategic Insights & Recommendations
+
+> 6 Data-Driven Findings · 3 Action Pillars · Filterable by City & Resort Hotel
+
+<img src="screenshots/strategies.png" width="100%"/>
+
+<br/>
+
+---
+
+## ◈ Cancellation Risk Matrix
+
+<div align="center">
+
+| Segment | Contract | Group | Transient | Trans-Party | **Total** |
+|:--|:--:|:--:|:--:|:--:|:--:|
+| Aviation | — | 0.00% ✅ | 21.10% | 35.29% | 21.94% |
+| Complementary | 0.00% ✅ | 0.00% ✅ | 13.23% | 12.50% | 13.06% ✅ |
+| Corporate | 18.18% | 17.24% | 18.29% | 19.72% | 18.73% |
+| Direct | 14.29% | 13.43% | 15.54% | 13.55% | 15.34% ✅ |
+| **Groups** | **95.92% ⚠️** | 0.00% | **95.69% ⚠️** | 31.30% | **61.06% 🔴** |
+| Offline TA/TO | 9.19% | 11.85% | 42.63% 🟡 | 26.15% | 34.32% 🟡 |
+| **Online TA** | 25.84% | 6.15% | 38.80% 🟡 | 12.52% | **36.72% 🟡** |
+| **TOTAL** | **30.96%** | **10.23%** | **40.75%** | **25.43%** | **37.04%** |
+
+</div>
+
+<br/>
+
+---
+
+## ◈ ML Model — Cancellation Predictor
+
+```python
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  MODEL     Logistic Regression + Random Forest Ensemble
+  TARGET    booking_status  →  Canceled / Confirmed
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  FEATURES  lead_time           market_segment      adr
+            hotel_type          deposit_type        customer_type
+            previous_cancels    booking_changes     special_requests
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  KEY DRIVER  →  lead_time  ×  market_segment  interaction
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  PREDICTED RISK DISTRIBUTION
+
+  🟢 Low Risk     ████████████████████████████████  60.3%  →  72,000 bookings
+  🟡 Medium Risk  ████████████████                  28.2%  →  33,600 bookings
+  🔴 High Risk    ██████                            11.5%  →  13,700 bookings
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+<br/>
+
+---
+
+## ◈ Strategic Action Pillars
+
+```
+┌─────────────────────────────┐ ┌─────────────────────────────┐ ┌─────────────────────────────┐
+│  01 · REDUCE CANCELLATIONS  │ │  02 · GROW REVENUE & ADR    │ │  03 · RETAIN GUESTS         │
+├─────────────────────────────┤ ├─────────────────────────────┤ ├─────────────────────────────┤
+│ → Predictive risk flags     │ │ → Dynamic peak pricing      │ │ → Personalized loyalty tiers│
+│ → OTA deposit mandates      │ │ → Resort luxury bundles     │ │ → Direct booking incentives │
+│ → Lead time policies        │ │ → Yield management system   │ │ → Member-exclusive rates    │
+│ → Group contract rules      │ │ → Upsell automation         │ │ → Mobile UX optimization    │
+│ → Advance payment triggers  │ │ → Parking monetization      │ │ → Exclusive member offers   │
+└─────────────────────────────┘ └─────────────────────────────┘ └─────────────────────────────┘
+```
+
+<br/>
+
+---
+
+## ◈ Technology Stack
+
+<div align="center">
+
+| Layer | Tools |
+|:--|:--|
+| **Data & Querying** | ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![DAX](https://img.shields.io/badge/DAX-F2C811?style=flat-square&logo=powerbi&logoColor=000) ![Power Query](https://img.shields.io/badge/Power%20Query%20M-F2C811?style=flat-square&logo=powerbi&logoColor=000) |
+| **Visualization & BI** | ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=000) ![Power BI Service](https://img.shields.io/badge/Power%20BI%20Service-F2C811?style=flat-square&logo=powerbi&logoColor=000) |
+| **Analytics & ML** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) |
+| **Delivery** | ![PDF](https://img.shields.io/badge/PDF%20Report-FF4B4B?style=flat-square&logo=adobeacrobatreader&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
+
+</div>
+
+<br/>
+
+---
+
+## ◈ Repository Structure
 
 ```
 📦 hotel_booking_cancellation_pridiction/
 │
 ├── 📂 data/
-│   ├── raw/                         → original hotel booking dataset
-│   └── cleaned/                     → processed, feature-engineered dataset
+│   ├── raw/                          → original hotel booking dataset
+│   └── cleaned/                      → processed & feature-engineered dataset
 │
 ├── 📂 sql/
 │   ├── 01_cancellation_analysis.sql
@@ -239,13 +272,21 @@ Use Case  : Flag high-risk bookings at reservation time
 
 <div align="center">
 
-*Built for decision-grade analytics — not just dashboards.*
+<br/>
 
-[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN)
-[![Portfolio](https://img.shields.io/badge/View-Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](YOUR_PORTFOLIO)
+**Built for decision-grade analytics — not just dashboards.**
 
-*If this project helped you, consider giving it a ⭐*
+<br/>
+
+<a href="YOUR_LINKEDIN"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
+<a href="YOUR_PORTFOLIO"><img src="https://img.shields.io/badge/View%20Portfolio-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+
+<br/><br/>
+
+*If this project helped you, drop a ⭐ — it keeps the work going.*
+
+<br/>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0,0D1117,1a1a2e,16213e,0f3460&height=100&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=120&section=footer&animation=fadeIn" width="100%"/>
