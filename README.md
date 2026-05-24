@@ -1,8 +1,12 @@
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:434343&height=250&section=header&text=SmartHotel%20Analytics&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Booking%20Cancellation%20Prediction%20%26%20Reservation%20Intelligence&descAlignY=58&descSize=18"/>
-</p>
-
 <div align="center">
+
+# 🏨 SmartHotel Analytics
+
+### Booking Cancellation Prediction & Reservation Intelligence System
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:111111,100:2d2d2d&text=SmartHotel%20Analytics&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=End-to-End%20Hotel%20Booking%20Analytics%20Project&descAlignY=55&descSize=18"/>
+
+</div>
 
 <a href="YOUR_DASHBOARD_LINK"><img src="https://img.shields.io/badge/⬡%20LIVE%20DASHBOARD-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000"/></a>&nbsp;
 <a href="Hotel Booking Cancellation Prediction Report.pdf"><img src="https://img.shields.io/badge/↓%20FULL%20REPORT-PDF-FF4B4B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/></a>&nbsp;
