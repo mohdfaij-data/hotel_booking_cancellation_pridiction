@@ -278,8 +278,8 @@ Raw CSV Data  →  SQL Cleaning & Segmentation  →  Python EDA & ML Modeling
 
 <br/>
 
-<a href="YOUR_LINKEDIN"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
-<a href="YOUR_PORTFOLIO"><img src="https://img.shields.io/badge/View%20Portfolio-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="www.linkedin.com/in/mohdfaij-data"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
+<a href="https://mohdfaij-data.github.io"><img src="https://img.shields.io/badge/View%20Portfolio-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 <br/><br/>
 
