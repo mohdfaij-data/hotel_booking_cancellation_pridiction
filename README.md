@@ -7,7 +7,7 @@
 <div align="center">
 
 <a href="YOUR_DASHBOARD_LINK"><img src="https://img.shields.io/badge/⬡%20LIVE%20DASHBOARD-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000"/></a>&nbsp;
-<a href="YOUR_REPORT_LINK"><img src="https://img.shields.io/badge/↓%20FULL%20REPORT-PDF-FF4B4B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/></a>&nbsp;
+<a href="Hotel Booking Cancellation Prediction Report.pdf"><img src="https://img.shields.io/badge/↓%20FULL%20REPORT-PDF-FF4B4B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/></a>&nbsp;
 <a href="./sql/"><img src="https://img.shields.io/badge/⌗%20SQL%20QUERIES-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/></a>&nbsp;
 <a href="./python/"><img src="https://img.shields.io/badge/◈%20ML%20NOTEBOOK-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/></a>
 
